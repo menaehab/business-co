@@ -1,0 +1,42 @@
+.offer {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.offer_card {
+  padding: 5rem 3rem;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.offer_text {
+  padding: 0 6rem;
+}
+
+.offer_text h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+.offer_text p {
+  font-size: 1.3rem;
+}
+
+.offer_card_1 {
+  background-color: #000000;
+}
+
+.offer_card_2 {
+  background-color: #38d2d9;
+}
+
+.offer_card_3 {
+  background-color: #14b8bf;
+}
+
+@media (max-width: 992px) {
+  .offer {
+    margin-top: 100px;
+  }
+}
