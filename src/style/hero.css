@@ -1,0 +1,41 @@
+.hero_img {
+  width: 100%;
+}
+
+.hero_title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.hero_description {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.btn_hero {
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 12px 20px !important;
+  font-weight: 500 !important;
+  border: none !important;
+  background-color: #000 !important;
+  color: white !important;
+  border-radius: 30px !important;
+  -webkit-border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
+  -ms-border-radius: 30px !important;
+  -o-border-radius: 30px !important;
+}
+
+.btn_hero:hover {
+  background-color: #14b8bf !important;
+  color: #fff !important;
+}
+
+@media (max-width: 992px) {
+  .hero_text {
+    text-align: center;
+  }
+}
