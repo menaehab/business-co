@@ -1,0 +1,43 @@
+.about_text {
+  text-align: center;
+  color: #000;
+  padding: 0 20%;
+}
+
+.about_icon {
+  font-size: 4rem;
+}
+
+.about_text h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about_text p {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.btn_about {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  border: #777 1px solid;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btn_about:hover {
+  background-color: #14b8bf;
+  color: #fff;
+  border: none;
+}
