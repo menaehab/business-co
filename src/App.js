@@ -6,6 +6,7 @@ import About from "./components/About";
 import Engagement from "./components/Engagement";
 import Service from "./components/Service";
 import Communication from "./components/Communication";
+import Market from "./components/Market";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Engagement />
       <Service />
       <Communication />
+      <Market />
     </div>
   );
 }
