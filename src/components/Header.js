@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../style/header.css";
 import { Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ export default function Header() {
   };
 
   return (
-    <>
+    <Fade>
       <Navbar>
         <Container>
           <Navbar.Brand>Business Co</Navbar.Brand>
@@ -50,6 +51,6 @@ export default function Header() {
         </Container>
       </Navbar>
       <Sidenav isOpen={isOpen} closeNav={closeNav} />
-    </>
+    </Fade>
   );
 }
