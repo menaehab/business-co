@@ -7,6 +7,7 @@ import Engagement from "./components/Engagement";
 import Service from "./components/Service";
 import Communication from "./components/Communication";
 import Market from "./components/Market";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Service />
       <Communication />
       <Market />
+      <Footer />
     </div>
   );
 }
