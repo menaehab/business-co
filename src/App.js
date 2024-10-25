@@ -4,6 +4,7 @@ import Offer from "./components/Offer";
 import "./App.css";
 import About from "./components/About";
 import Engagement from "./components/Engagement";
+import Service from "./components/Service";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Offer />
       <About />
       <Engagement />
+      <Service />
     </div>
   );
 }

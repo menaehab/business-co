@@ -1,0 +1,64 @@
+.service_main {
+  text-align: center;
+}
+
+.service_main h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.service_main p {
+  color: #777;
+  margin-bottom: 5rem;
+}
+
+.service_card {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.service_card i {
+  background-color: #38d2d9;
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.service_card h3 {
+  margin-bottom: 1.5rem;
+}
+
+.service_card p {
+  color: #777;
+  margin-bottom: 3rem;
+}
+
+.btn_service {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  border: #38d2d9 1px solid;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btn_service:hover {
+  background-color: #14b8bf;
+  color: #fff;
+  border: none;
+}
