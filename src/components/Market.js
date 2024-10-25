@@ -10,12 +10,20 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
+import { CircleGrid } from "react-awesome-shapes";
 
 export default function Market() {
   return (
     <Fade>
       <section className="market">
         <Container>
+          <CircleGrid
+            position="absolute"
+            color="#38d2d9"
+            size="125px"
+            left="2%"
+            zIndex={2}
+          />
           <div className="service_main">
             <h1>Business And Marketing</h1>
             <p>
@@ -39,6 +47,13 @@ export default function Market() {
               <img src={market3} alt="market img" className="carousel-image" />
             </SwiperSlide>
           </Swiper>
+          <CircleGrid
+            position="absolute"
+            color="#38d2d9"
+            size="130px"
+            left="75%"
+            zIndex={2}
+          />
           <div className="text-center">
             <Link className="btn_market">learn more</Link>
           </div>

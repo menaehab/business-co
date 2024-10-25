@@ -32,3 +32,10 @@
     height: 600px;
   }
 }
+
+@media (max-width: 991px) {
+  .anim-shape-diamond,
+  .anim-shape-circlegrid {
+    display: none;
+  }
+}
