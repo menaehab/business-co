@@ -1,0 +1,54 @@
+.communication {
+  overflow-x: hidden;
+}
+
+.communication .col-lg-6 {
+  background-color: #f2f2f2;
+}
+
+.communication_image {
+  width: 100%;
+}
+
+.communication_text {
+  padding: 5rem 4rem;
+}
+
+.communication_text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.communication_text p {
+  color: #777;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.communication_text p:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
+.btn_communication {
+  text-decoration: none;
+  background-color: #38d2d9;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.btn_communication:hover {
+  background-color: #14b8bf;
+}
