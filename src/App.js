@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Offer from "./components/Offer";
 import "./App.css";
 import About from "./components/About";
+import Engagement from "./components/Engagement";
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Offer />
       <About />
+      <Engagement />
     </div>
   );
 }
